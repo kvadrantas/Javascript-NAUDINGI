@@ -1,4 +1,9 @@
 // ujs10-132-functions-call-apply-methods 
+// Call and Apply allows you to call and apply methods from other objects to wanted object event if that 
+// wanted object does not even have such methods
+// Lets say, you have lots of similar objects with same properties, but different values and only one copy of methods.
+// Call and Apply allows you to use that one copy of method on all objects.
+
 
 const Wizair = {
     marsrutas: 'Vilnius-Miunhenas',
